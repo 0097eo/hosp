@@ -1,0 +1,34 @@
+.about-container {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-title {
+    color: #343a40;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-content {
+    color: #495057;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .services-list {
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  
+  .service-item {
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
+  .service-item::before {
+    content: "✔ ";
+    color: #28a745;
+  }

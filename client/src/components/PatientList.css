@@ -1,0 +1,84 @@
+/* PatientList.css */
+
+.patients-container {
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.dropdown {
+  margin-bottom: 20px;
+}
+
+.dropdown h2 {
+  color: #333; /* Dark grey text */
+  font-size: 24px; /* Larger heading size */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.dropdown select {
+  display: block; /* Make sure the select element takes up full width */
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding inside the select */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Standard font size */
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.details h3 {
+  color: #007bff; /* Blue color for headings */
+  font-size: 20px; /* Heading size */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+.details p {
+  margin-bottom: 5px; /* Space below each paragraph */
+}
+
+.button-group {
+  display: flex; /* Align buttons horizontally */
+  justify-content: space-between; /* Space out the buttons */
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px; /* Padding around the button text */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth background color change */
+}
+
+.button-group button:hover {
+  background-color: #007bff; /* Blue background on hover */
+  color: white; /* White text on hover */
+}
+
+/* Optional: Style for the delete confirmation dialog */
+.confirmation-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.confirmation-dialog h2 {
+  margin-bottom: 10px;
+}
+
+.confirmation-dialog button {
+  margin-top: 20px;
+}

@@ -1,0 +1,80 @@
+/* Homepage.css */
+.homepage {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-section {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 80px 20px;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ff7e5f;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #feb47b;
+}
+
+.features-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: #f1f1f1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 250px;
+}
+
+.feature-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1em;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
